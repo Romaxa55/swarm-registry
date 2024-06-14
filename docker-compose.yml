@@ -22,5 +22,4 @@ services:
 volumes:
   registry-data:
     driver: glusterfs
-    driver_opts:
-      voluri: "gv0/registry-data"
+    name: "gv0/registry"
