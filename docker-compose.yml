@@ -23,5 +23,4 @@ volumes:
   registry-data:
     driver: glusterfs
     driver_opts:
-      volume-name: gv0
-      voluri: localhost:/gv0
+      voluri: "localhost:/gv0"
