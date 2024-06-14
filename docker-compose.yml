@@ -22,4 +22,4 @@ services:
 volumes:
   registry-data:
     driver: glusterfs
-    name: "gv0/registry"
+    name: "/glusterfs/brick1/gv0/registry"
